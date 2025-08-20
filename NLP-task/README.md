@@ -45,16 +45,15 @@ It helps visualize customer feedback through **charts, repetitive word analysis,
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/yourusername/app-review-analyzer.git
-cd app-review-analyzer
+git clone https://github.com/yabuz87/app-review-analyzer.git
+cd NLP-task
 ````
 
 ### 2️⃣ Backend Setup
 
 ```bash
 cd backend
-npm install
-npm start   # or: uvicorn main:app --reload (if FastAPI backend is used)
+ uvicorn main:app --reload (if FastAPI backend is used)
 ```
 
 ### 3️⃣ Frontend Setup

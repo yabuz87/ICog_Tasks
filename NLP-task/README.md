@@ -76,15 +76,15 @@ http://localhost:3000
 
 ### 🔹 Home Page
 
-<img src="."/>
+![Home Page](prtsc2.png)
 
 ### 🔹 Review Analysis Result
 
-![Analysis](screenshots/demo2.png)
+![Analysis](prtsc3.png)
 
 ### 🔹 Charts & Insights
 
-![Charts]
+![Charts](prtsc1.png)
 
 ---
 

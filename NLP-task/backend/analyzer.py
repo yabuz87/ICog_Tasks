@@ -111,8 +111,6 @@ def analyze_app_reviews(app_id: str, num_topics=3,save_csv=True):
         top_indices = center.argsort()[-2:][::-1]
         # Extract the corresponding terms
         top_terms = [terms[j] for j in top_indices]
-        # Optionally, extract their importance values
-        top_importances = [center[j] for j in top_indices]
 
         # Summarize using LLM (or fallback to keywords if LLM fails)
         topic_phrases[f"topic_{i}"] = llm_summarize_topic(top_terms)
